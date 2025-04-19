@@ -1,0 +1,8 @@
+defaults:
+  - _self_
+  - model: GAN
+  - data: TrafficDataModule
+  - checkpoint: inference
+
+version: 1
+model_name: 5GT-GAN
